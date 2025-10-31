@@ -119,6 +119,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &137885979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 137885980}
+  - component: {fileID: 137885981}
+  m_Layer: 0
+  m_Name: managerEscenas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &137885980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137885979}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137885981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137885979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99112990eae7c804c904fcf6241739bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: roca2
+  tiempoLimite: 5
 --- !u!1 &411414749
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a01a942dc1c0d34a9416624654e5d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  osc: {fileID: 0}
 --- !u!1001 &688276211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -447,3 +494,4 @@ SceneRoots:
   - {fileID: 411414751}
   - {fileID: 688276211}
   - {fileID: 1021284111}
+  - {fileID: 137885980}
