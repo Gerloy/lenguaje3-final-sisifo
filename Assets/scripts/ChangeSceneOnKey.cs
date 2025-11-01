@@ -15,7 +15,8 @@ public class ChangeSceneOnKey : MonoBehaviour
     void Update()
     {
         // Método principal: detección de tecla (puede ser reemplazado por señal OSC)
-        if (Input.GetKeyDown(KeyCode.Alpha5) && !escenaCambiada)
+        if ((Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Alpha6) || Input.GetKeyDown(KeyCode.Space)) && !escenaCambiada)
+
         {
             CambiarEscena();
         }
