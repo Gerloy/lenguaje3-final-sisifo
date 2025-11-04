@@ -18,6 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/roca2.unity
     guid: c95ad481624727c4e961d740237b8998
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d84b8b8a997f3f54b8de4a7f8ab6ea9c, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4362b33d26664284097d05ab9653b95d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7bbdcb02595bf1c48adb6d1098b46b58, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fe70e66c87efe4d44a68387b578d6882, type: 2}
   m_UseUCBPForAssetBundles: 0
