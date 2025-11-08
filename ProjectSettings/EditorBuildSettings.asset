@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/roca2.unity
     guid: c95ad481624727c4e961d740237b8998
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.30.0/Hello Cardboard/Scenes/HelloCardboard.unity
+    guid: 03c48c5e809944fa4afcae9973709f26
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d84b8b8a997f3f54b8de4a7f8ab6ea9c, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4362b33d26664284097d05ab9653b95d, type: 2}

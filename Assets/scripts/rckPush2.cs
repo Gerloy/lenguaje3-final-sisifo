@@ -25,7 +25,7 @@ public class RockCyclePhysics : MonoBehaviour
     void Update()
     {
         // Presionar tecla “5” para empujar la roca
-        if (Input.GetKey(KeyCode.Alpha5) && !reachedTop)
+        if (Input.GetKey(KeyCode.Alpha3) && !reachedTop)
         {
             isPushing = true;
             rb.useGravity = false; // desactiva gravedad mientras se empuja

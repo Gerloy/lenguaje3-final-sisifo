@@ -16,7 +16,7 @@ public class RockCycle : MonoBehaviour
     void Update()
     {
         // Mientras la tecla 5 esté presionada
-        if (Input.GetKey(KeyCode.Alpha5) && !reachedTop)
+        if (Input.GetKey(KeyCode.Alpha3) && !reachedTop)
         {
             isPushing = true;
             MoveRockUp();

@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad2: puerta1Decision1
-  tiempoLimite2: 5
+  tiempoLimite2: 30
 --- !u!4 &549799151
 Transform:
   m_ObjectHideFlags: 0

@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a01a942dc1c0d34a9416624654e5d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  osc: {fileID: 0}
+  osc: {fileID: 1021284110}
 --- !u!1001 &688276211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35a184233f18143a12a7cd4795610d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inPort: 6969
+  inPort: 9000
   outIP: 127.0.0.1
   outPort: 6161
 --- !u!4 &1021284111
